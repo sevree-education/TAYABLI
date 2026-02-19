@@ -96,9 +96,6 @@ export default function HomePage() {
             ))}
           </div>
         </div>
-        <div style="width:100%; height:100%; border: 1px solid">
-          <button type="button">hello</button>
-        </div>
         {/* RECIPE GRID */}
         {loading ? (
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
